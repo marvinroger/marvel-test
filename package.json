@@ -1,0 +1,20 @@
+{
+  "name": "@marvel/workspace_",
+  "private": true,
+  "workspaces": {
+    "packages": [
+      "packages/**"
+    ]
+  },
+  "scripts": {
+    "dev": "lerna run --parallel dev",
+    "build": "lerna run build",
+    "lint": "fusee lint",
+    "test": "lerna run test"
+  },
+  "devDependencies": {
+    "@marvinroger/fusee": "^3.0.0",
+    "lerna": "^3.14.1",
+    "prettier": "^1.19.1"
+  }
+}

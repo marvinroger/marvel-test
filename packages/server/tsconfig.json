@@ -1,0 +1,17 @@
+{
+  "extends": "@marvinroger/fusee/tsconfig",
+  "compilerOptions": {
+    "types": [],
+    "module": "commonjs",
+    "esModuleInterop": true,
+    "target": "es2018",
+    "moduleResolution": "node",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "outDir": "dist/",
+    "resolveJsonModule": true,
+    "declaration": true,
+    "incremental": true
+  },
+  "include": ["src/**/*.ts"]
+}
