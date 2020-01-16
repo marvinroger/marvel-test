@@ -5,10 +5,6 @@
 
 import * as ctx from '../context'
 
-declare global {
-  type NexusGen = NexusGenTypes
-}
-
 export interface NexusGenInputs {}
 
 export interface NexusGenEnums {}
